@@ -1,15 +1,28 @@
 .conteiner {
-    display: flex;
-    
+    display: flex; /* inline flex */
+    border: solid 5px rgb(9, 58, 181);
+    padding: 3px;
 
 }
 .item {
- margin: 3px;
- padding: 3px;
- 
+    border: solid black;
+    margin: 1px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(222, 126, 9);
+    background-color: rgb(209, 235, 219);
 }
 body div {
-    background: rgb(126, 106, 106);
-    width: 300px;
+    width: 300px; 
+}
+p {
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+}
+.column {
+    display: flex;
+    flex-direction: column;
     
 }
