@@ -23,6 +23,11 @@ p {
 }
 .column {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+}
+#cat {
     
+}
+.c {
+    width: 200px;
 }
