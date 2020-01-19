@@ -1,0 +1,15 @@
+.conteiner {
+    display: flex;
+    
+
+}
+.item {
+ margin: 3px;
+ padding: 3px;
+ 
+}
+body div {
+    background: rgb(126, 106, 106);
+    width: 300px;
+    
+}
