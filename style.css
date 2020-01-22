@@ -25,9 +25,11 @@ p {
     font: 1em sans-serif;
 }
 .column {
+    border: solid 40px orange;
     display: flex;
     flex-direction: column;  
 }
+
 #cat {
     
 }
