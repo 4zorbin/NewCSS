@@ -36,7 +36,11 @@ p {
 .c {
     width: 200px;
 }
+#catt {
+    background-color: rgb(148, 82, 82);
+}
 .bg {
+
     border: solid rgb(114, 114, 114) 10px;
     width: 200px;
     height: 200px;
