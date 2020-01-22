@@ -42,11 +42,12 @@ p {
 .bg {
 
     border: solid rgb(114, 114, 114) 10px;
-    width: 200px;
-    height: 200px;
+    
+    width: 800px;
+    height: 500px;
     background-image: 
         url(fdf13733-6915-4126-84c5-45a1f5e2b275-best-cat-gifts-2019.png);
     
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     }
