@@ -1,3 +1,6 @@
-body {
-    background-color: rgb(201, 196, 196);
+:root {
+    --main-color: #7c7c35;
+}
+.text {
+    background-color: var(--main-color);
 }
