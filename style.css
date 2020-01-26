@@ -1,16 +1,15 @@
 :root {
-    --main-text-color: #c64c00;
-    --bg-color: rgb(225, 226, 224);
-    --border-color: rgb(99, 99, 99);
+    --main-text-color: #a7cdac;
+    --bg-color: rgb(131, 133, 128);
+    --border-color: rgb(38, 4, 103);
     --main-font-size: 25px;
-
 }
-media all and (max-width: 800px){
-    :root {
-        --main-font-size: 12px;
-    }
-}
-
+  
+media all and (max-width: 600px) {  
+    :root {  
+      --main-font-size: 12px;  
+    }  
+  }
 .table {
     color: var(--main-text-color);
     border: solid 4px var(--border-color);
@@ -19,5 +18,9 @@ media all and (max-width: 800px){
     font-size: var(--main-font-size);
 }
 body {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 200px;
     background-color: var(--bg-color);
 }
