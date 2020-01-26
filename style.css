@@ -1,6 +1,10 @@
 :root {
-    --main-color: #7c7c35;
+    --main-text-color: #c64c00;
+    --bg-color: rgb(149, 199, 123);
 }
 .text {
-    background-color: var(--main-color);
+    color: var(--main-text-color);
+}
+body {
+    background-color: var(--bg-color);
 }
