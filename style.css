@@ -1,13 +1,22 @@
 :root {
     --main-text-color: #c64c00;
-    --bg-color: rgb(69, 87, 59);
+    --bg-color: rgb(225, 226, 224);
     --border-color: rgb(99, 99, 99);
+    --main-font-size: 25px;
+
 }
+media all and (max-width: 600px){
+    :root {
+        --main-font-size: 12px;
+    }
+}
+
 .table {
     color: var(--main-text-color);
     border: solid 4px var(--border-color);
     width: 200px;
     height: auto;
+    font-size: var(--main-font-size);
 }
 body {
     background-color: var(--bg-color);
