@@ -1,9 +1,13 @@
 :root {
     --main-text-color: #c64c00;
-    --bg-color: rgb(149, 199, 123);
+    --bg-color: rgb(69, 87, 59);
+    --border-color: rgb(99, 99, 99);
 }
-.text {
+.table {
     color: var(--main-text-color);
+    border: solid 4px var(--border-color);
+    width: 200px;
+    height: auto;
 }
 body {
     background-color: var(--bg-color);
