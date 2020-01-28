@@ -1,9 +1,10 @@
 :root {
     --main-text-color: #a7cdac;
-    --bg-color: rgb(131, 133, 128);
+    --bg-color: rgb(255, 255, 255);
     --border-color: rgb(38, 4, 103);
     --main-font-size: 25px;
-  
+    --button-color: ;
+
 }
   
 media all and (max-width: 600px) {  
@@ -24,4 +25,20 @@ body {
     width: 300px;
     height: 200px;
     background-color: var(--bg-color);
+}
+ .nav {
+    display: flex;
+    list-style-type: none;
+ }
+ 
+.button {
+  
+  margin: 2px;
+  padding: 2px;
+  align-content: space-around ;
+  text-transform: nowrap;
+  word-spacing: nowrap;
+}
+a {
+  
 }
