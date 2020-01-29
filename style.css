@@ -1,9 +1,10 @@
 :root {
     --main-text-color: #a7cdac;
-    --bg-color: rgb(255, 255, 255);
-    --border-color: rgb(38, 4, 103);
+    --bg-color: rgb(201, 201, 201);
+    --border-color: rgb(255, 255, 255);
     --main-font-size: 25px;
-    --button-color: ;
+    --button-color: none;
+    --line-menu-color: gray;
 
 }
   
@@ -15,24 +16,26 @@ media all and (max-width: 600px) {
 body {
     margin: 0;
     padding: 0;
-    width: 300px;
-    height: 200px;
+
     background-color: var(--bg-color);
 }
  .nav {
+    height: auto;
     display: flex;
     list-style-type: none;
     margin: 2px;
     padding: 2px;
+    background-color: var(--line-menu-color);
 
  }
+a {
 
+}
  li {
- 
    display: inline;
+   border: solid 1px white;
  }
 .but {
-  border: solid 2px var(--border-color);
   list-style: none;
   margin: 0px;
   padding-left: 0;
