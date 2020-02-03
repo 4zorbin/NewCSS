@@ -37,6 +37,7 @@ body {
    background-color: var(--bg-color);
  }
 a {
+  font-style: italic;
 }
  li {
    display: inline;
