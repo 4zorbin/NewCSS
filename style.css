@@ -32,11 +32,8 @@ body {
     background-color: var(--line-menu-color);
  }
  .img {
+    width: 10%;
  
-   border: solid 1px gray;
-
-   border-width: 30px;
-   background-color: var(--bg-color);
  }
 a {
   font-style: italic;
