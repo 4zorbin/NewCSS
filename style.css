@@ -13,40 +13,11 @@ media all and (max-width: 600px) {
       --main-font-size: 12px;  
     }  
   }
-body {
-    margin: 0;
-    padding: 0;
-    align-content: center;
-    background-color: var(--bg-color);
-}
 
-.new {
-  background-color: bisque;
-}
- .nav {
-    height: auto;
-    display: flex;
-    list-style-type: none;
-    margin: 2px;
-    padding: 2px;
-    background-color: var(--line-menu-color);
- }
- .img {
-    width: 10%;
- 
- }
-a {
-  font-style: italic;
-}
- li {
-   display: inline;
-   border: solid 1px white;
- }
-.but {
-  list-style: none;
-  margin: 0px;
-  padding-left: 0;
-}
-a {
-  text-decoration: none;
-}
+  .conteiner {
+    width: 100%;
+    min-width: 1024px;
+    padding: 0, 15px;
+    margin: 0, auto;  
+  
+  }
