@@ -5,7 +5,7 @@
     --main-font-size: 25px;
     --button-color: none;
     --line-menu-color: gray;
-
+    --bg-cont-color: blue;
 }
   
 media all and (max-width: 600px) {  
@@ -14,7 +14,9 @@ media all and (max-width: 600px) {
     }  
   }
 
-
+.cont {
+  background-color: var(--bg-cont-color)
+}
   
   .conteiner {
     width: 100%;
