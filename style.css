@@ -25,7 +25,11 @@ media all and (max-width: 600px) {
     margin: 0, auto;  
   
   }
-  
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .logo {
   float: left;
 
@@ -41,8 +45,7 @@ nav ul {
 nav li {
   display: inline-block;
 }
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
+nav a {
+  text-decoration: none;
+  line-height: 38px;
 }
