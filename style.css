@@ -2,18 +2,20 @@
    --bg-color: gray;
    --header: blue;
    --footer: pink;
+   --div: green;
  } 
   
   
   body {
-    background: #000;
+    background-color: var(--bg-color);
+
   }
   header {
-
+    background-color:var(--header);
   }
   div {
-
+    background-color: var(--div);
   }
   footer {
-
+    background-color:var(--footer);
   }
