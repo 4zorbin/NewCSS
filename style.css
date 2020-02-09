@@ -5,17 +5,26 @@
    --div: green;
  } 
   
-  
-  body {
-    background-color: var(--bg-color);
-
-  }
-  header {
-    background-color:var(--header);
-  }
-  div {
-    background-color: var(--div);
-  }
-  footer {
-    background-color:var(--footer);
-  }
+.conteiner {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0,15px;
+  margin: 0,auto;
+}
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+body {
+  background-color: gray;
+}
