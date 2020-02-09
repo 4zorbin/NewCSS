@@ -1,0 +1,19 @@
+ :root {
+   --bg-color: gray;
+   --header: blue;
+   --footer: pink;
+ } 
+  
+  
+  body {
+    background: #000;
+  }
+  header {
+
+  }
+  div {
+
+  }
+  footer {
+
+  }
