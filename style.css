@@ -1,7 +1,7 @@
  :root {
    --bg-color: gray;
    --header: blue;
-   --footer: pink;
+   --footer: rgb(206, 209, 45);
    --div: green;
    --new-color: red;
  } 
