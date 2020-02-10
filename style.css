@@ -3,6 +3,7 @@
    --header: blue;
    --footer: pink;
    --div: green;
+   --new-color: red;
  } 
   
 .conteiner {
@@ -21,7 +22,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+}   
 nav li {
   display: inline-block;
 }
