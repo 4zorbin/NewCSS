@@ -52,7 +52,7 @@ nav a {
 }
 .col-2-3 {
   width: 66.6666666667%;
-  float: left;
+  float: right;
 }
 .container:after, .row:after {
   content: "";
