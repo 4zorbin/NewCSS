@@ -5,7 +5,9 @@
    --div: green;
    --new-color: red;
  } 
-  
+ aside {
+   background-color: #black;
+ } 
 .conteiner {
   width: 100%;
   max-width: 1024px;
