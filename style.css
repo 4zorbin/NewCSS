@@ -4,7 +4,8 @@
    --footer: rgb(206, 209, 45);
    --div: green;
    --new-color: red;
- } 
+   --menu-color: #8BC3C2;
+ }
 .page-header {
     background-color: var(--bg-color);
     margin: 0;
@@ -25,4 +26,8 @@
  .main-nav__list  {
      list-style: none;
      text-decoration: none;
+ }
+ .main-nav {
+     height: 50px;
+     background-color: var(--menu-color);
  }
