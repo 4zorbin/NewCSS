@@ -1,4 +1,4 @@
- :root {
+ /*:root {
    --bg-color: #506F6E;
    --header: blue;
    --footer: rgb(206, 209, 45);
@@ -26,8 +26,7 @@
  .main-nav__list  {
      list-style: none;
      text-decoration: none;
- }
- .main-nav {
+ }  .main-nav {
      height: 50px;
      background-color: var(--menu-color);
  }
