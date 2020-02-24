@@ -1,8 +1,8 @@
 :root {
    --bg-color: #506F6E;
    --header: blue;
-   --footer: rgb(206, 209, 45);
-   --div: green;
+   --footer: rgb(130, 133, 25);
+   --div: #005e00;
    --new-color: red;
    --menu-color: #8BC3C2;
  }
