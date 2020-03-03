@@ -6,6 +6,8 @@
    --new-color: red;
    --menu-color: #8BC3C2;
  }
+
+
 .page-header {
     background-color: var(--bg-color);
     margin: 0;
