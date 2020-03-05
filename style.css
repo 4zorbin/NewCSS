@@ -6,8 +6,6 @@
    --new-color: red;
    --menu-color: #8BC3C2;
  }
-
-
 .page-header {
     background-color: var(--bg-color);
     margin: 0;
@@ -19,6 +17,7 @@
      margin: 0;
      padding: 0;
 }
+
  .main-nav__list  {
      list-style: none;
      text-decoration: none;
