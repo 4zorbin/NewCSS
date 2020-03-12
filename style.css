@@ -13,7 +13,6 @@
     height: 100px;
 }
  }
-
  .main-nav__list  {
      list-style: none;
      text-decoration: none;
@@ -30,4 +29,8 @@
 
 .class-note {
     background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
+
+?/////
