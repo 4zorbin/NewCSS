@@ -1,22 +1,13 @@
-.divv {
-    background-color: #1e8822;
-    font-family:  cursive;
-    font-size: 20px;
-    width: 200px;
 
-}
-.u-list {
-    border: solid 2px #0b390d;
 
-}
-ul{
+ul, li, p{
     list-style-type: none;
+    display: inline-block;
     margin: 0;
     padding: 0;
-    color: aqua;
 }
 
-li:not(:first-child):not(:last-child){
+/*li:not(:first-child):not(:last-child){
     font-size: 30px;
     list-style-type:circle;
     background-color: #fff;
@@ -25,3 +16,4 @@ li:not(:first-child):not(:last-child){
 .link {
     color: #000;
 }
+*/
